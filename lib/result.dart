@@ -9,16 +9,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Identical Game'),
-          backgroundColor: Colors.indigo,
-        ),
-        body: Center(
-          child: Text(
-            "Congrats, You won!",
-            style: TextStyle(fontSize: 35, color: Colors.deepPurple),
-          ),
-        ),
       ),
     );
   }
